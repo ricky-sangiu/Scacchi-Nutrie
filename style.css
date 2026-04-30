@@ -1,8 +1,9 @@
-.scacchiera div{
+.scacchiera{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.white div {
-    background-color: azure;
+.white {
+    padding: 15px;
+    background-color: black;
 }
 
