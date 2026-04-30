@@ -1,1 +1,8 @@
-ciao
+.scacchiera div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.white div {
+    background-color: azure;
+}
+
