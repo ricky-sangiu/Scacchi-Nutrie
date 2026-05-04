@@ -1,9 +1,18 @@
 .scacchiera{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+    width: 640px;
+    margin: 50px auto;
+    border: 15px solid rgb(109, 28, 28);
 }
-.white {
+
+.b {
     padding: 15px;
     background-color: black;
 }
 
+.w {
+    padding: 15px;
+    background-color: rgb(246, 241, 217);
+}
