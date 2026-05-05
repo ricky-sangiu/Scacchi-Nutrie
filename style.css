@@ -1,15 +1,19 @@
+body {
+    vertical-align: middle;
+    
+}
+
 .scacchiera{
     display: grid;
-    grid-template-columns: repeat(8, 80px);
-    grid-template-rows: repeat(8, 80px);
-    width: 640px;
-    margin: 50px auto;
-    border: 15px solid rgb(109, 28, 28);
+    grid-template-columns: 20px repeat(8, 80px) 20px;
+    grid-template-rows: 20px repeat(8, 80px) 20px;
+    width: 680px;
+    margin: 50px auto
 }
 
 .b {
     padding: 15px;
-    background-color: black;
+    background-color: rgb(119, 80, 58);
 }
 
 .w {
