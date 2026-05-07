@@ -1,15 +1,33 @@
+body {
+    vertical-align: middle;
+    
+}
+
 .scacchiera{
     display: grid;
-    grid-template-columns: repeat(8, 80px);
-    grid-template-rows: repeat(8, 80px);
-    width: 640px;
-    margin: 50px auto;
-    border: 15px solid rgb(109, 28, 28);
+    grid-template-columns: 25px repeat(8, 80px) 25px;
+    grid-template-rows: 25px repeat(8, 80px) 25px;
+    width: 680px;
+    margin: 30px auto;
+}
+
+.letters,
+.numbers {
+    background-color: rgb(76, 60, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letters p,
+.numbers p {
+    margin: 0;
+    color: rgb(246, 241, 217);
 }
 
 .b {
     padding: 15px;
-    background-color: black;
+    background-color: rgb(119, 80, 58);
 }
 
 .w {
