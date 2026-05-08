@@ -1,7 +1,4 @@
-body {
-    vertical-align: middle;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 
 .scacchiera{
     display: grid;
@@ -23,14 +20,29 @@ body {
 .numbers p {
     margin: 0;
     color: rgb(246, 241, 217);
+    font-family: "Quintessential";
 }
 
 .b {
     padding: 15px;
     background-color: rgb(119, 80, 58);
+    transition: transform 0.2s ease-in-out;
 }
 
 .w {
     padding: 15px;
     background-color: rgb(246, 241, 217);
+    transition: transform 0.2s ease-in-out;
 }
+
+.w:hover {
+    background-color: rgb(209, 205, 185);
+    transform: scale(1.08);
+}
+
+.b:hover {
+    background-color: rgb(80, 55, 39);
+    transform: scale(1.08);
+}
+
+
