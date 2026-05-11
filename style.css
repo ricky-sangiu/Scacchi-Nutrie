@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(47, 68, 116);
+}
+
 .scacchiera{
     display: grid;
     grid-template-columns: 25px repeat(8, 80px) 25px;
     grid-template-rows: 25px repeat(8, 80px) 25px;
     width: 680px;
-    margin: 30px auto;
 }
 
 .letters,
@@ -45,4 +51,14 @@
     transform: scale(1.08);
 }
 
+.pezzo {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.3);
+    transition: transform 0.25s ease-in-out;
+}
+
+.pezzo:hover {
+    transform: scale(1.5);
+}
 
