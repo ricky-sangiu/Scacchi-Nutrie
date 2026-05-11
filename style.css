@@ -11,7 +11,8 @@ body {
     display: grid;
     grid-template-columns: 25px repeat(8, 80px) 25px;
     grid-template-rows: 25px repeat(8, 80px) 25px;
-    width: 680px;
+    width: 690px;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .letters,
@@ -56,6 +57,7 @@ body {
     height: 100%;
     transform: scale(1.3);
     transition: transform 0.25s ease-in-out;
+
 }
 
 .pezzo:hover {
