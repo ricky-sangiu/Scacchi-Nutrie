@@ -34,3 +34,10 @@ body {
     padding: 15px;
     background-color: rgb(246, 241, 217);
 }
+
+.pezzo {
+    width: 100%;  /* Fa sì che il pezzo sia largo quanto la casella */
+    height: 100%; /* Fa sì che il pezzo sia alto quanto la casella */
+    object-fit: contain; /* Evita che l'immagine si deformi (la mantiene proporzionata) */
+    transform: scale(1.2); /* 1.2 aumenta la dimensione del 20% */
+}
